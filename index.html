@@ -7,12 +7,16 @@
     <script type="text/javascript" src="build/js/app.js"></script>  </head>
   <body>
     <div class="container">
-      <h1>Get Weather Conditions From Anywhere!</h1>
+      <h1>Search for stolen bikes</h1>
       <div class="box">
-        <label for="location">Enter a location:</label>
-        <input id="location" type="text">
-        <button class="button btn-success" id="weatherLocation">Get Current Temperature!</button>
-        <div class="showWeather"></div>
+        <label for="per_page">Number of bikes in results:</label>
+        <input id="per_page" type="text">
+        <label for="colors">Colors:</label>
+        <input id="colors" type="text">
+        <label for="proximity">Location:</label>
+        <input id="proximity" type="text">
+        <button class="button btn-success" id="bike-search">Search</button>
+        <div id="results"></div>
     </div>
   </body>
 </html>
