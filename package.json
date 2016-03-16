@@ -23,5 +23,8 @@
     "jshint": "^2.9.1",
     "prompt": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "google-maps": "^3.2.1"
   }
 }
