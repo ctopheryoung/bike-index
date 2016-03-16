@@ -1,6 +1,7 @@
 $(document).ready(function() {
   $('#bike-search').click(function() {
 
+    $('#map').show();
     $('#results').empty();
 
     var per_page = "&per_page=" + $('#per_page').val();
