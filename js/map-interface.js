@@ -1,13 +1,14 @@
 var GoogleMapsLoader = require('google-maps');
 var apiKey = require('./../.env').apiKey;
 GoogleMapsLoader.KEY = apiKey;
+var map, geocoder;
 
 $(document).ready(function() {
 
   GoogleMapsLoader.load(function(google) {
-    new google.maps.Map(document.getElementById("map"), {
-      center: {lat: 45.51, lng: -122.6931698},
-      zoom: 11
+    map = new google.maps.Map(document.getElementById("map"), {
+      center: {lat: 37.09024, lng: -95.712891},
+      zoom: 4
     });
   });
 
